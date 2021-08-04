@@ -1,0 +1,107 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin:0px;
+    padding: 0px;
+    background: url('photos/lady.jpg');
+}
+
+.left{
+    position:absolute;
+    top:20px;
+    left:34px;
+    color:white;
+    display:inline-block;
+}
+
+.mid{
+    display: block;
+    width: 60%;
+    margin: 20px 0px 0px 200px ;
+    color:white;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.right{
+    position:absolute;
+    right:34px;
+    top:20px;
+    color:white;
+    display:inline-block;
+}
+
+.navbar{
+    display:inline-block;
+    background-color: black;
+}
+
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar li a:hover, .navbar li a:active{
+    /* background-color: rgba(54, 52, 52, 0.781); */
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.navbar li{
+    display:inline-block;
+    padding: 0px 22px 0px 22px;
+}
+
+.left img{
+    width: 100px;
+    height: 60px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: black;
+    color:white;
+    margin: 0px 9px;
+    padding: 4px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container{
+    border: 2px 2px;
+    margin: 80px 100px;
+    padding: 40px;
+    width:25%;
+    border: 10px solid white;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.container h1{
+    color:rgba(245, 221, 86, 0.9);
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 5px;
+    /* border: 2px solid black; */
+    margin: 11px auto;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+#frm{
+    margin: 40px 0px 30px 120px;
+}
